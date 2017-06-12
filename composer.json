@@ -1,0 +1,37 @@
+{
+    "name": "emanci/SocialiteManager",
+    "description": "",
+    "keywords": ["oauth2", "socialite"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [{
+        "name": "emanci",
+        "email": "zhengchaopu@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~6.2.3",
+        "symfony/http-foundation": "~2.6|~2.7|~2.8|~3.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0|~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Socialite\\SocialiteManager\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
